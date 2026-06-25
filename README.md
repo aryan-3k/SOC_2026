@@ -1,1 +1,1 @@
-# SOC_2026
+# Glyph: Hierarchical Auto-Encoder
