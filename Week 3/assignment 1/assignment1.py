@@ -151,7 +151,7 @@ class HierarchicalVAE(nn.Module):
 
 # ==========================================
 # Step 3 — Train for 20+ Epochs
-# ==========================================
+# =========================================
 
 def kl_loss(mu, logvar):
     return -0.5 * torch.mean(1 + logvar - mu.pow(2) - logvar.exp())

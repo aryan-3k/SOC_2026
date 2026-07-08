@@ -13,7 +13,7 @@ from torch.nn.utils.rnn import pad_sequence, pack_padded_sequence
 
 # ==========================================
 # Step 1 — Load Category and Define Model
-# =========================================
+# ========================================
 
 category = 'bicycle'
 os.makedirs('data', exist_ok=True)
